@@ -2,6 +2,10 @@
 
 An MCP server based on OSSInsight.io, providing data analysis for GitHub individuals, organizations, and repositories, as well as in-depth insights into the open source ecosystem.
 
+<a href="https://glama.ai/mcp/servers/@damonxue/mcp-ossinsight">
+  <img width="380" height="200" src="https://glama.ai/mcp/servers/@damonxue/mcp-ossinsight/badge" alt="OSSInsight Server MCP server" />
+</a>
+
 ## Features
 
 - **Repository Analysis**: Get comprehensive data about GitHub repositories, including star trends, contributor activity, and code commits
