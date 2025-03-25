@@ -26,33 +26,20 @@ An MCP server based on OSSInsight.io, providing data analysis for GitHub individ
      - `username` (string): GitHub username
    - Returns: Developer data from both API and web page, with a link to the OSSInsight page
 
-3. `get_organization_analysis`
-   - Get detailed analysis of a GitHub organization
-   - Input:
-     - `org_name` (string): GitHub organization name
-   - Returns: Organization data from both API and web page, with a link to the OSSInsight page
-
-4. `compare_repositories`
-   - Compare various metrics between two GitHub repositories
-   - Input:
-     - `repo1` (string): First repository in the format 'owner/repo'
-     - `repo2` (string): Second repository in the format 'owner/repo'
-   - Returns: Comparison data and a direct link to OSSInsight's comparison page
-
-5. `get_collection`
+3. `get_collection`
    - Get information about a specific collection of repositories
    - Input:
      - `collection_id` (string): Collection ID, e.g., 'open-source-database'
    - Returns: Collection data and a link to the collection page on OSSInsight
 
-6. `list_collections`
+4. `list_collections`
    - List all available repository collections
    - Input:
      - `page` (optional number): Page number, starting from 1
      - `per_page` (optional number): Number of results per page, default is 20
    - Returns: List of collections and a link to browse collections on OSSInsight
 
-7. `natural_language_query`
+5. `natural_language_query`
    - Direct access to OSSInsight's natural language query interface
    - Input:
      - `query` (string): Natural language query, e.g., 'Which repositories gained the most stars in 2023?'
@@ -177,33 +164,20 @@ This MCP server is licensed under the MIT License. This means you can freely use
      - `username` (字符串): GitHub 用户名
    - 返回: 来自 API 和网页的开发者数据，以及指向 OSSInsight 页面的链接
 
-3. `get_organization_analysis`
-   - 获取 GitHub 组织的详细分析
-   - 输入:
-     - `org_name` (字符串): GitHub 组织名称
-   - 返回: 来自 API 和网页的组织数据，以及指向 OSSInsight 页面的链接
-
-4. `compare_repositories`
-   - 比较两个 GitHub 仓库的各项指标
-   - 输入:
-     - `repo1` (字符串): 第一个仓库，格式为 'owner/repo'
-     - `repo2` (字符串): 第二个仓库，格式为 'owner/repo'
-   - 返回: 比较数据以及指向 OSSInsight 比较页面的直接链接
-
-5. `get_collection`
+3. `get_collection`
    - 获取特定集合的信息和仓库列表
    - 输入:
      - `collection_id` (字符串): 集合 ID，例如 'open-source-database'
    - 返回: 集合数据以及指向 OSSInsight 集合页面的链接
 
-6. `list_collections`
+4. `list_collections`
    - 列出所有可用的仓库集合
    - 输入:
      - `page` (可选数字): 页码，从 1 开始
      - `per_page` (可选数字): 每页结果数量，默认为 20
    - 返回: 集合列表以及指向 OSSInsight 浏览集合页面的链接
 
-7. `natural_language_query`
+5. `natural_language_query`
    - 直接访问 OSSInsight 的自然语言查询界面
    - 输入:
      - `query` (字符串): 自然语言查询，例如 'Which repositories gained the most stars in 2023?'
