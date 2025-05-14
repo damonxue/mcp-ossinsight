@@ -1,3 +1,5 @@
+[![MseeP.ai Security Assessment Badge](https://mseep.net/pr/damonxue-mcp-ossinsight-badge.png)](https://mseep.ai/app/damonxue-mcp-ossinsight)
+
 # OSSInsight MCP Server
 
 An MCP server based on OSSInsight.io, providing data analysis for GitHub individuals, organizations, and repositories, as well as in-depth insights into the open source ecosystem.
